@@ -7,6 +7,18 @@
     },
     "routes": [
       {
+        "src": "/build/(.*)",
+        "dest": "/public/build/$1"
+      },
+      {
+        "src": "/vendor/(.*)",
+        "dest": "/public/vendor/$1"
+      },
+      {
+        "src": "/(favicon\\.ico|robots\\.txt)",
+        "dest": "/public/$1"
+      },
+      {
         "src": "/(.*)",
         "dest": "/api/index.php"
       }
