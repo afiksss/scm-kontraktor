@@ -1,4 +1,4 @@
 <?php
 
-// Forward request to Laravel public/index.php
+// Forward request ke public/index.php bawaan Laravel
 require __DIR__ . '/../public/index.php';
