@@ -1,6 +1,9 @@
 {
     "version": 2,
     "framework": null,
+    "buildCommand": null,
+    "installCommand": null,
+    "outputDirectory": "public",
     "functions": {
       "api/index.php": {
         "runtime": "vercel-php@0.7.3"
@@ -24,4 +27,3 @@
       "APP_SERVICES_CACHE": "/tmp/services.php"
     }
   }
-  
